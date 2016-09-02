@@ -96,3 +96,8 @@ i {
 }
 
 .obtClima{ text-decoration: underline; }
+button{
+	z-index: 10000;
+	width: 50px;
+	margin-left: 50px;
+}

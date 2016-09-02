@@ -25,14 +25,17 @@ html(lang="en")
 		script.
 									
 	body.background-all
+		
 		.reveal
+
 			.slides
 				section
 					h1.text-center Weather APP
 					p(style="font-size:0.8em;") Desarrollado por: Mery Santos Zabalaga
 					br
 					br
-					a.obtClima(href="#/3" style="font-size:0.8em; text-decoration: underline; color:brown;") Obtener el clima de mi ciudad
+					a.js-geolocation.obtClima(href="#/3" style="font-size:0.8em; text-decoration: underline; color:brown;") Obtener el clima de mi ciudad
+					//- button#tp( onclick="escalaT()") C
 				section
 					section
 						.container-fluid
@@ -61,6 +64,7 @@ html(lang="en")
 				//- 			.clima
 
 				//- 				#clima3
+		button(id="tp" onclick="escalaT()") C
 		script(src="lib/js/head.min.js")
 		script(src="js/reveal.js")
 
