@@ -2,7 +2,7 @@
 body {
   padding: 45px 25px;
   font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  background: #1192d3;
+  /*background: url(http://www.anawalls.com/images/nature/sky-clouds-pink.jpg);*/
 }
 
 @font-face {
@@ -99,5 +99,5 @@ i {
 button{
 	z-index: 10000;
 	width: 50px;
-	margin-left: 50px;
+	margin-left: 15px;
 }
