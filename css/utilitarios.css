@@ -1,0 +1,39 @@
+
+.letra-fotos{font-family: 'Caveat';}  
+.letra-titulos{font-family: ;}
+.letra-texto{font-family: ;}
+
+.p-rl{position:relative;}
+.d-b{display: block;}
+.d-ib { display: inline-block;}
+
+.tl-titulo { font-family: serif;}
+.tl-texto { font-family: sans-serif;}
+
+.mg-0 { margin: 0;}
+.mg-1 { margin: 1%;}
+.mg-2 {  margin: 2%;}
+.mg-5 {  margin: 5%;}
+.mt-2 {  margin-top: 2%;}
+.mt-5 {  margin-top: 5%;}
+.mb-5 {  margin-bottom: 5%;}
+.mt-8 {  margin-top: 8%;}
+.mr-4 {  margin-right: 4%;}
+.pd-0{padding: 0;}
+.pd-1 {  padding: 1%;}
+.pd-2 {  padding: 2%;}
+.pd-5 {  padding: 5%;}
+.pt-5 {  padding-top: 5%;}
+.pt-7 {  padding-top: 7%;}
+.p-ab {  position: absolute;}
+.p-rl {  position: relative;}
+
+
+
+.img-100 {
+  width: 100%;
+}
+
+.d-none {
+  display: none;
+}
