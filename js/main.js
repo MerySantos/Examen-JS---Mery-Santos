@@ -5,7 +5,7 @@ $(document).ready(function() {
     unit: 'c',
     success: function(weather) {
       html = '<h2><i class="icon-'+weather.code+'"></i> '+'</h2>';
-      html +='<h3 class="text-left">'+weather.city+'</h3>';
+      html +='<h3 class="text-center">'+weather.city+'</h3>';
       html +='<div class=" datos col-xs-6">'+weather.high+'&deg;'+weather.units.temp+' / '+weather.low+'&deg;'+weather.units.temp+'</div>';
       html +='<div class="datos col-xs-6 currently">'+weather.currently+'</div>';
       html +='<hr style="color: white;" />';
