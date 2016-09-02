@@ -11,6 +11,8 @@ $(document).ready(function() {
       html +='<h3 class="text-left">'+weather.city+'</h3>';
 
       $("#clima1").html(html);
+      climaPorDias(weather,"#clima1Desc",weather.units.temp);
+
     },
     error: function(error) {
       $("#clima1").html('<p>'+error+'</p>');
@@ -28,9 +30,20 @@ $(document).ready(function() {
       html +='<h3 class="text-left">'+weather.city+'</h3>';
   
       $("#clima2").html(html);
+      climaPorDias(weather,"#clima2Desc",weather.units.temp);
     },
     error: function(error) {
       $("#clima2").html('<p>'+error+'</p>');
     }
   });
+
+  function climaPorDias(weather,ciudad){
+    html='';
+    for(var i=0;i<weather.forecast.length;i++) {
+        // html += '<p>weather.forecast['+i+'].date: '+weather.forecast[i].date+'</p>';
+        html += '<p>'+weather.forecast[i].day+': '+weather.forecast[i].high+'&deg;'+weather.units.temp+'/'+weather.forecast[i].low+'&deg;'+weather.units.temp+'</p>';
+        $(ciudad).html(html);
+      }
+
+  }
 });
