@@ -41,7 +41,7 @@ $(document).ready(function() {
     html='';
     for(var i=0;i<weather.forecast.length;i++) {
         // html += '<p>weather.forecast['+i+'].date: '+weather.forecast[i].date+'</p>';
-        html += '<p>'+weather.forecast[i].day+': '+weather.forecast[i].high+'&deg;'+weather.units.temp+'/'+weather.forecast[i].low+'&deg;'+weather.units.temp+'</p>';
+        html += '<p>'+weather.forecast[i].day+ ' '+weather.forecast[i].date +': &nbsp&nbsp&nbsp'+weather.forecast[i].high+'&deg;'+weather.units.temp+'/'+weather.forecast[i].low+'&deg;'+weather.units.temp+'</p>';
         $(ciudad).html(html);
       }
 
