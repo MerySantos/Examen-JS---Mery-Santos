@@ -21,6 +21,7 @@ body {
   text-transform: uppercase;
 }
 
+
 i {
   color: #fff;
   font-family: weather;
@@ -94,18 +95,4 @@ i {
   font-weight: bold;
 }
 
-/*#clima .currently {
-  text-transform: capitalize;
-  text-align: center;
-}*/
-
-/*button {
-  display: block;
-  margin: 15px auto;
-  width: 140px;
-  padding: 5px;
-  background: transparent;
-  color: #fff;
-  border: 0;
-  border-radius: 5px;
-}*/
+.obtClima{ text-decoration: underline; }
