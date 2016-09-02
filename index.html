@@ -7,14 +7,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shorcut icon" href="img/image/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/utilitarios.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Rhodium+Libre" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet" type="text/css"><link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type"text/javascript src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
     <script></script>
   </head>
-  <body class="background-all"></body>
+  <body class="background-all">
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <section>
+            <div class="container-fluid">
+              <div id="clima">
+                <div id="clima1"></div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <p>djfbjsd</p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <div class="container-fluid">
+              <div id="clima">
+                <div id="clima2"></div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <p>djfbjsd</p>
+          </section>
+        </section>
+      </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+      	controls: true,
+      	progress: true,
+      	history: true,
+      	center: true,
+      
+      	transition: 'slide', // none/fade/slide/convex/concave/zoom
+      
+      	// More info https://github.com/hakimel/reveal.js#dependencies
+      	dependencies: [
+      		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      		{ src: 'plugin/zoom-js/zoom.js', async: true },
+      		{ src: 'plugin/notes/notes.js', async: true }
+      	]
+      });
+    </script>
+  </body>
 </html>
