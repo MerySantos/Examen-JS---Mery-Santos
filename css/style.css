@@ -1,6 +1,6 @@
 /**{outline:1px solid rgba(255,0,0,0.8);}*/
 body {
-  padding: 45px 25px;
+  padding: 40px 25px;
   font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   /*background: url(http://www.anawalls.com/images/nature/sky-clouds-pink.jpg);*/
 }
@@ -25,7 +25,7 @@ body {
 i {
   color: #fff;
   font-family: weather;
-  font-size: 150px;
+  font-size: 4em;
   font-weight: normal;
   font-style: normal;
   line-height: 1.0;
